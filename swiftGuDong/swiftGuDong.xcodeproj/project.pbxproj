@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05E91B85E22DC4D970E327A7 /* Pods_swiftGuDong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5AFB269CF1CFE81C212B5E /* Pods_swiftGuDong.framework */; };
 		32E74A151DC045CA0085A09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E74A141DC045CA0085A09B /* AppDelegate.swift */; };
-		32E74A171DC045CA0085A09B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E74A161DC045CA0085A09B /* ViewController.swift */; };
 		32E74A1A1DC045CA0085A09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E74A181DC045CA0085A09B /* Main.storyboard */; };
 		32E74A1C1DC045CA0085A09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E74A1B1DC045CA0085A09B /* Assets.xcassets */; };
 		32E74A1F1DC045CA0085A09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E74A1D1DC045CA0085A09B /* LaunchScreen.storyboard */; };
+		32E74A2F1DC04E670085A09B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E74A2E1DC04E670085A09B /* MapKit.framework */; };
+		32E74A321DC059760085A09B /* LLMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E74A311DC059760085A09B /* LLMainViewController.swift */; };
+		32E74A351DC05B630085A09B /* LLSportTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E74A341DC05B630085A09B /* LLSportTracking.swift */; };
+		32E74A3C1DC0739C0085A09B /* LLSportSporting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E74A3B1DC0739C0085A09B /* LLSportSporting.storyboard */; };
+		32E74A601DC07A850085A09B /* LLSportingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E74A5F1DC07A850085A09B /* LLSportingViewController.swift */; };
+		32E74A621DC07CE20085A09B /* LLSportMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E74A611DC07CE20085A09B /* LLSportMapViewController.swift */; };
+		32E74A641DC0ECA70085A09B /* LLSportPolyLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E74A631DC0ECA70085A09B /* LLSportPolyLine.swift */; };
+		32E74A661DC0FEC80085A09B /* LLSportMapModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E74A651DC0FEC80085A09B /* LLSportMapModeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		089B33B5080D960CB90EA0DA /* Pods-swiftGuDong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftGuDong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftGuDong/Pods-swiftGuDong.debug.xcconfig"; sourceTree = "<group>"; };
 		32E74A111DC045CA0085A09B /* swiftGuDong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftGuDong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E74A141DC045CA0085A09B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32E74A161DC045CA0085A09B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32E74A191DC045CA0085A09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32E74A1B1DC045CA0085A09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32E74A1E1DC045CA0085A09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32E74A201DC045CA0085A09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E74A2E1DC04E670085A09B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		32E74A311DC059760085A09B /* LLMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLMainViewController.swift; sourceTree = "<group>"; };
+		32E74A341DC05B630085A09B /* LLSportTracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLSportTracking.swift; sourceTree = "<group>"; };
+		32E74A3B1DC0739C0085A09B /* LLSportSporting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LLSportSporting.storyboard; sourceTree = "<group>"; };
+		32E74A5F1DC07A850085A09B /* LLSportingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLSportingViewController.swift; sourceTree = "<group>"; };
+		32E74A611DC07CE20085A09B /* LLSportMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLSportMapViewController.swift; sourceTree = "<group>"; };
+		32E74A631DC0ECA70085A09B /* LLSportPolyLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLSportPolyLine.swift; sourceTree = "<group>"; };
+		32E74A651DC0FEC80085A09B /* LLSportMapModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLSportMapModeViewController.swift; sourceTree = "<group>"; };
+		5FD34248336B9C4E25A5E20F /* Pods-swiftGuDong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftGuDong.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftGuDong/Pods-swiftGuDong.release.xcconfig"; sourceTree = "<group>"; };
+		FB5AFB269CF1CFE81C212B5E /* Pods_swiftGuDong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftGuDong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E74A2F1DC04E670085A09B /* MapKit.framework in Frameworks */,
+				05E91B85E22DC4D970E327A7 /* Pods_swiftGuDong.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +60,8 @@
 			children = (
 				32E74A131DC045CA0085A09B /* swiftGuDong */,
 				32E74A121DC045CA0085A09B /* Products */,
+				32E74A2D1DC04E670085A09B /* Frameworks */,
+				7F57036596BF5991E1FDF043 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,62 @@
 		32E74A131DC045CA0085A09B /* swiftGuDong */ = {
 			isa = PBXGroup;
 			children = (
+				32E74A361DC05C920085A09B /* Views */,
+				32E74A331DC05B480085A09B /* Model */,
+				32E74A301DC0591E0085A09B /* Sport */,
 				32E74A141DC045CA0085A09B /* AppDelegate.swift */,
-				32E74A161DC045CA0085A09B /* ViewController.swift */,
 				32E74A181DC045CA0085A09B /* Main.storyboard */,
 				32E74A1B1DC045CA0085A09B /* Assets.xcassets */,
 				32E74A1D1DC045CA0085A09B /* LaunchScreen.storyboard */,
 				32E74A201DC045CA0085A09B /* Info.plist */,
 			);
 			path = swiftGuDong;
+			sourceTree = "<group>";
+		};
+		32E74A2D1DC04E670085A09B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32E74A2E1DC04E670085A09B /* MapKit.framework */,
+				FB5AFB269CF1CFE81C212B5E /* Pods_swiftGuDong.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32E74A301DC0591E0085A09B /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				32E74A311DC059760085A09B /* LLMainViewController.swift */,
+				32E74A5F1DC07A850085A09B /* LLSportingViewController.swift */,
+				32E74A611DC07CE20085A09B /* LLSportMapViewController.swift */,
+				32E74A651DC0FEC80085A09B /* LLSportMapModeViewController.swift */,
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		32E74A331DC05B480085A09B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32E74A341DC05B630085A09B /* LLSportTracking.swift */,
+				32E74A631DC0ECA70085A09B /* LLSportPolyLine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32E74A361DC05C920085A09B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32E74A3B1DC0739C0085A09B /* LLSportSporting.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7F57036596BF5991E1FDF043 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				089B33B5080D960CB90EA0DA /* Pods-swiftGuDong.debug.xcconfig */,
+				5FD34248336B9C4E25A5E20F /* Pods-swiftGuDong.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32E74A231DC045CA0085A09B /* Build configuration list for PBXNativeTarget "swiftGuDong" */;
 			buildPhases = (
+				C3CF881CDDA7F1EE49CEDFE0 /* [CP] Check Pods Manifest.lock */,
 				32E74A0D1DC045CA0085A09B /* Sources */,
 				32E74A0E1DC045CA0085A09B /* Frameworks */,
 				32E74A0F1DC045CA0085A09B /* Resources */,
+				20E619C4B809777F6E0D202C /* [CP] Embed Pods Frameworks */,
+				FDF0832E4F1416BF0B8ED657 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,6 +163,7 @@
 		32E74A091DC045CA0085A09B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LL;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = LL;
@@ -98,6 +172,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 7HYS587L42;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,18 +206,72 @@
 				32E74A1F1DC045CA0085A09B /* LaunchScreen.storyboard in Resources */,
 				32E74A1C1DC045CA0085A09B /* Assets.xcassets in Resources */,
 				32E74A1A1DC045CA0085A09B /* Main.storyboard in Resources */,
+				32E74A3C1DC0739C0085A09B /* LLSportSporting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20E619C4B809777F6E0D202C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftGuDong/Pods-swiftGuDong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CF881CDDA7F1EE49CEDFE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF0832E4F1416BF0B8ED657 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftGuDong/Pods-swiftGuDong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32E74A0D1DC045CA0085A09B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E74A171DC045CA0085A09B /* ViewController.swift in Sources */,
+				32E74A641DC0ECA70085A09B /* LLSportPolyLine.swift in Sources */,
+				32E74A661DC0FEC80085A09B /* LLSportMapModeViewController.swift in Sources */,
+				32E74A351DC05B630085A09B /* LLSportTracking.swift in Sources */,
+				32E74A621DC07CE20085A09B /* LLSportMapViewController.swift in Sources */,
 				32E74A151DC045CA0085A09B /* AppDelegate.swift in Sources */,
+				32E74A601DC07A850085A09B /* LLSportingViewController.swift in Sources */,
+				32E74A321DC059760085A09B /* LLMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +392,32 @@
 		};
 		32E74A241DC045CA0085A09B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089B33B5080D960CB90EA0DA /* Pods-swiftGuDong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7HYS587L42;
 				INFOPLIST_FILE = swiftGuDong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRELINK_FLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.libraLiu.swiftGuDong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftGuDong-Brige.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		32E74A251DC045CA0085A09B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD34248336B9C4E25A5E20F /* Pods-swiftGuDong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7HYS587L42;
 				INFOPLIST_FILE = swiftGuDong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRELINK_FLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.libraLiu.swiftGuDong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftGuDong-Brige.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +441,7 @@
 				32E74A251DC045CA0085A09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

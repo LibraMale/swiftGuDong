@@ -8,14 +8,19 @@
 
 import UIKit
 
+let APIKey = "53b2f0eaca3145f5e285f6f283243132"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    var search : AMapSearchAPI?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // 高德地图key
+        AMapServices.shared().apiKey = APIKey
+        
         return true
     }
 
